@@ -4,7 +4,7 @@ class Categoria {
 
     String nome
 
-    static toString() {
+    String toString() {
         this.nome
     }
 

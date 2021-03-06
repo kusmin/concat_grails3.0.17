@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  concat_database:
+    build: ./mysql
+    container_name: concat_database
+    ports:
+      - 3306:3306
